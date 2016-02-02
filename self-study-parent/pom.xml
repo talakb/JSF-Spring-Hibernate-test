@@ -6,4 +6,10 @@
   <name>self-study-parent</name>
   <description>self-study-parent</description>
   <packaging>pom</packaging>
+  
+  
+  <modules>
+  	<module>../self-study-common</module>
+  	<module>../self-study-common-data</module>
+  </modules>
 </project>
