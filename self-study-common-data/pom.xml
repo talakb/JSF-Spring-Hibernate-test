@@ -5,6 +5,7 @@
 		<groupId>self-study-parent</groupId>
 		<artifactId>self-study-parent</artifactId>
 		<version>1.0.0-SNAPSHOT</version>
+		<relativePath>../self-study-parent/pom.xml</relativePath>
 	</parent>
 
 	<groupId>self-study-common-data</groupId>
