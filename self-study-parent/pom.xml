@@ -53,6 +53,16 @@
 			<artifactId>slf4j-api</artifactId>
 			<version>1.7.14</version>
 		</dependency>
+		<!-- END Logging -->
+
+		<!-- Java mail -->
+		<dependency>
+			<groupId>javax.mail</groupId>
+			<artifactId>mail</artifactId>
+			<version>1.4</version>
+		</dependency>
+		<!-- Java mail -->
+
 
 		<!-- Test and mocks -->
 		<dependency>
