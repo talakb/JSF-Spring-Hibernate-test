@@ -13,8 +13,10 @@
 		<module>../self-study-common</module>
 		<module>../self-study-common-data</module>
 		<module>../self-study-web</module>
+		<module>../self-study-core-java</module>
 	</modules>
 	<!-- END Self study modules -->
+	
 	<properties>
 		<org.springframework.version>4.2.4.RELEASE</org.springframework.version>
 		<org.junit.version>4.12</org.junit.version>
