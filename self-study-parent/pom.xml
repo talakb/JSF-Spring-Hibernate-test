@@ -20,6 +20,7 @@
 	<properties>
 		<org.springframework.version>4.2.4.RELEASE</org.springframework.version>
 		<org.junit.version>4.12</org.junit.version>
+		<org.mockito.version>1.10.19</org.mockito.version>
 	</properties>
 
 	<!-- Common dependencies for all modules -->
@@ -75,7 +76,7 @@
 		<dependency>
 			<groupId>org.mockito</groupId>
 			<artifactId>mockito-all</artifactId>
-			<version>1.10.19</version>
+			<version>${org.mockito.version}</version>
 		</dependency>
 		<!-- END Test/mocks -->
 
