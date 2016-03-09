@@ -16,11 +16,12 @@
 		<module>../self-study-core-java</module>
 	</modules>
 	<!-- END Self study modules -->
-	
+
 	<properties>
 		<org.springframework.version>4.2.4.RELEASE</org.springframework.version>
 		<org.junit.version>4.12</org.junit.version>
 		<org.mockito.version>1.10.19</org.mockito.version>
+		<org.jsf.version>2.2.13</org.jsf.version>
 	</properties>
 
 	<!-- Common dependencies for all modules -->
@@ -49,6 +50,15 @@
 			<version>4.1.4.RELEASE</version>
 		</dependency>
 		<!-- END Spring -->
+
+
+		<!-- JSF -->
+		<dependency>
+			<groupId>com.sun.faces</groupId>
+			<artifactId>jsf-api</artifactId>
+			<version>${org.jsf.version}</version>
+		</dependency>
+
 
 		<!-- Logging -->
 		<dependency>
