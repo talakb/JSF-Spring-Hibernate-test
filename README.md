@@ -1,1 +1,1 @@
-# self-study
+JSF-Spring-Hibernate-test project.
