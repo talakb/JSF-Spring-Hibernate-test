@@ -1,10 +1,10 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<artifactId>self-study-web</artifactId>
-	<packaging>war</packaging>
-	<name>self-study-web</name>
-	<description>self-study-web</description>
+	<artifactId>self-study-service</artifactId>
+	<packaging>jar</packaging>
+	<name>self-study-service</name>
+	<description>self-study-service</description>
 
 	<parent>
 		<groupId>self-study</groupId>
@@ -14,7 +14,7 @@
 	</parent>
 
 	<properties>
-		<jsf.version>2.3</jsf.version>
+		<jsf.version>2.2.13</jsf.version>
 		<primefaces.version>5.3</primefaces.version>
 	</properties>
 
@@ -22,11 +22,9 @@
 		<!-- SelfStudy Modules -->
 		<dependency>
 			<groupId>self-study</groupId>
-			<artifactId>self-study-service</artifactId>
+			<artifactId>self-study-data</artifactId>
 			<version>${project.version}</version>
 		</dependency>
-		
-		
 		<dependency>
 			<groupId>self-study</groupId>
 			<artifactId>self-study-common</artifactId>
@@ -36,26 +34,16 @@
 
 		<!-- JSF -->
 		<dependency>
-			<groupId>javax.faces</groupId>
-			<artifactId>javax.faces-api</artifactId>
+			<groupId>com.sun.faces</groupId>
+			<artifactId>jsf-impl</artifactId>
 			<version>${jsf.version}</version>
 		</dependency>
-		<dependency>
-			<groupId>javax.enterprise</groupId>
-			<artifactId>cdi-api</artifactId>
-			<version>2.0</version>
-			<scope>provided</scope>
-		</dependency>
-
-
 		<!-- END JSF -->
 
-		<!--UI artifacts-->
 		<dependency>
 			<groupId>org.primefaces</groupId>
 			<artifactId>primefaces</artifactId>
 			<version>${primefaces.version}</version>
 		</dependency>
-		<!--UI artifacts-->
 	</dependencies>
 </project>

@@ -1,6 +1,6 @@
 package me.selfstudy.mbean;
 
-import javax.faces.bean.RequestScoped;
+import javax.enterprise.context.RequestScoped;
 
 import me.selfstudy.data.service.EmployeeService;
 
